@@ -6,6 +6,7 @@ import Exercicio3 from "./Exercicios/Exercicio3";
 import Exercicio4 from "./Exercicios/Exercicio4";
 import Exercicio5 from "./Exercicios/Exercicio5";
 import Exercicio6 from "./Exercicios/Exercicio6";
+import Exercicio7 from "./Exercicios/Exercicio7";
 
 
 export default function App() {
@@ -35,21 +36,24 @@ export default function App() {
             </div>
 
             <div className="card">
-                <h3>Exercício 04</h3>
-                <Exercicio4 baset={5} alturat={10} />
+                <h3>Exercício 4</h3>
+                <Exercicio4 baset={7} alturat={9} />
                 <Exercicio4 baset={8} alturat={4} />
             </div>
 
             <div className="card">
-                <h3>Exercício 05</h3>
+                <h3>Exercício 5</h3>
                 <Exercicio5 consultas={35} />
                 <Exercicio5 consultas={50} />
             </div>
             <div className="card">
-                <h3>Exercício 06</h3>
+                <h3>Exercício 6</h3>
                 <Exercicio6 capi={1000} meses={6} taxa={5} />
             </div>
-
+            <div className="card">
+                <h3>Exercício 7</h3>
+                <Exercicio7 celsius={30}/>
+            </div>
 
         </div>
     );
