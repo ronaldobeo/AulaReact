@@ -8,5 +8,5 @@ export default function Exercicio1({ numero }) {
             O quadrado do número {numero} é {quadrado} e o cubo desse número é {cubo}
 
         </div>
-    )
+    );
 }

@@ -7,11 +7,14 @@ import Exercicio4 from "./Exercicios/Exercicio4";
 import Exercicio5 from "./Exercicios/Exercicio5";
 import Exercicio6 from "./Exercicios/Exercicio6";
 import Exercicio7 from "./Exercicios/Exercicio7";
-
+import Exercicio8 from "./Exercicios/Exercicio8";
+import Exercicio9 from "./Exercicios/Exercicio9";
+import Exercicio10 from "./Exercicios/Exercicio10";
 
 export default function App() {
     return (
         <div>
+
             <h1>Aula 02 - Criação de Componentes</h1>
 
             <div className="card">
@@ -52,7 +55,22 @@ export default function App() {
             </div>
             <div className="card">
                 <h3>Exercício 7</h3>
-                <Exercicio7 celsius={30}/>
+                <Exercicio7 celsius={30} />
+            </div>
+
+            <div className="card">
+                <h3>Exercício 8</h3>
+                <Exercicio8 />
+            </div>
+
+            <div className="card">
+                <h3>Exercício 9</h3>
+                <Exercicio9 valorS={1621} valorV={200} />
+            </div>
+
+            <div className="card">
+                <h3>Exercício 10</h3>
+                <Exercicio10 salarioB={2500} />
             </div>
 
         </div>
